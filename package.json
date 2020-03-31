@@ -1,6 +1,6 @@
 {
   "name": "@oscbco/debounce",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Underscore debounce",
   "main": "./public/index.js",
   "files": [
@@ -31,7 +31,6 @@
     "babel-plugin-transform-es2015-parameters": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "core-js": "^3.6.4",
-    "html-webpack-plugin": "^4.0.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.42.1",
     "webpack-bundle-analyzer": "^3.6.1",
