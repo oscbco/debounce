@@ -20,20 +20,22 @@
   "homepage": "",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "preversion": "",
+    "version": "npm run build && git add .",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-es2015-parameters": "^6.24.1",
     "babel-preset-env": "^1.7.0",
-    "core-js": "^3.6.4",
-    "uglifyjs-webpack-plugin": "^2.2.0",
+    "core-js": "^3.6.5",
     "webpack": "^4.42.1",
-    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-bundle-analyzer": "^3.7.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.2.2",

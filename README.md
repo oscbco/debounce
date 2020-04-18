@@ -1,2 +1,2 @@
-# debounce
-Underscore.js debounce function
+# @oscbco/debounce
+Underscore.js debounce function.
